@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cfr-0.152">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Decompiler/cfr-0.152.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
