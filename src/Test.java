@@ -69,13 +69,13 @@ public class Test {
         String os_slesh = System.getProperty("file.separator");
         System.out.println("Извлечение данных из jar-архива");
         // расположение и имя архива
-        System.out.print("Введите путь к jar-архиву : ");
+        System.out.print("Введите путь к jar-архиву с его именем и расширением: ");
         String nameJar = in.nextLine();
         String destination = System.getProperty("user.dir") + os_slesh + "Decompiler";
         // куда файлы будут распакованы
         new Test().unpack(destination, nameJar);
         //Установка путей декомпиляции
-        System.out.print("Укажите путь для сохранение декомпилированного файла с его именем : ");
+        System.out.print("Укажите путь для сохранение декомпилированного файла с его именем(без расширения): ");
         String put_proverki = in.nextLine() + ".java";
         //Определение имени файла с его расширением
         StringBuilder builder = new StringBuilder(put_proverki);
